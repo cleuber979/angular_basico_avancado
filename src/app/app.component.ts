@@ -18,7 +18,8 @@ import { NewComponent } from './components/new-component/new-component.component
   template:`
   <!--<router-outlet />-->
   <h1>Curso de Angula</h1>
-  <app-new-component/>
+  <div class="thema-red">
+  <app-new-component/></div>
   {{title}}
   `,
 })
